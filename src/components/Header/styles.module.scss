@@ -1,0 +1,18 @@
+.headerConteiner {
+  background: var(--white);
+  height: 120px;
+  display: flex;
+  align-items: center;
+  padding: 40px 80px;
+  border-bottom: 1x solid var(--gray-100);
+
+  p {
+    margin: 6rem;
+  }
+  span {
+    margin-left: auto;
+  }
+  img {
+    margin-top: 2rem;
+  }
+}
