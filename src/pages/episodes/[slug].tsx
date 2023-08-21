@@ -62,7 +62,7 @@ export default function Episode({episode} : EpisodeProps)   {
   );
 }
 
-export const getStaticPath : GetStaticPaths = async ()=> {
+export const GetStaticPath : GetStaticPaths = async ()=> {
   return{
     paths: [],
     fallback: "blocking",
