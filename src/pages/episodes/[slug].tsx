@@ -33,7 +33,7 @@ export default function Episode({episode} : EpisodeProps)   {
     <div className={styles.episode}>
       <div className={styles.thumbnailContainer}>
         <button type="button">
-          <img src="/play-previous.svg" alt="voltar"></img>
+          <img src="/play-previous.svg" alt="voltar" width={20}></img>
         </button>
         <Image
 
@@ -44,7 +44,7 @@ export default function Episode({episode} : EpisodeProps)   {
         
         />
         <button type = "button">
-          <img src="/play.svg" alt="tocar episodio"></img>
+          <img src="/play.svg" alt="tocar episodio" ></img>
         </button>
         
       </div>
@@ -62,7 +62,7 @@ export default function Episode({episode} : EpisodeProps)   {
   );
 }
 
-export const GetStaticPath : GetStaticPaths = async ()=> {
+export const getStaticPaths : GetStaticPaths = async ()=> {
   return{
     paths: [],
     fallback: "blocking",
